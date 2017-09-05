@@ -1,0 +1,10 @@
+[Desktop Entry]
+_Name=uAdBlock
+Comment=My project description
+Exec=@EXEC@
+Icon=@ICON@
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
+
+

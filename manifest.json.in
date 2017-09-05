@@ -1,0 +1,15 @@
+{
+    "name": "@APP_ID@",
+    "description": "System wide adblocker for ubuntu touch",
+    "architecture": "@CLICK_ARCH@",
+    "title": "@APP_NAME@",
+    "hooks": {
+        "uAdBlock": {
+            "apparmor": "uAdBlock.apparmor",
+            "desktop": "uAdBlock.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Marius Gripsgard <marius@ubports.com>",
+    "framework": "ubuntu-sdk-15.04.6"
+}
