@@ -1,0 +1,39 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-05 02:13+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../app/Main.qml:39 ../app/Main.qml:131
+msgid "uAdblock is enabled"
+msgstr "uAdBlock est activé"
+
+#: ../app/Main.qml:40 ../app/Main.qml:132
+msgid "Disable"
+msgstr "Désactiver"
+
+#: ../app/Main.qml:42 ../app/Main.qml:134
+msgid "uAdblock is disabled"
+msgstr "uAdBlock est désactivé"
+
+#: ../app/Main.qml:43 ../app/Main.qml:127 ../app/Main.qml:135
+msgid "Enable"
+msgstr "Activé"
+
+#: ../app/Main.qml:80
+#: /home/mariogrip/build-uAdBlock-Ubuntu_Device4_GCC_armhf_ubuntu_sdk_15_04_builder_armhf-Default/po/uAdBlock.desktop.in.h:1
+msgid "uAdBlock"
+msgstr "uAdBlock"
