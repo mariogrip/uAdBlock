@@ -8,7 +8,6 @@ void BackendPlugin::registerTypes(const char *uri)
 {
     Q_ASSERT(uri == QLatin1String("UAdBlock"));
 
-    //qmlRegisterType<MyType>(uri, 1, 0, "MyType");
     qmlRegisterType<Cmd>(uri, 1, 0, "Cmd");
 }
 

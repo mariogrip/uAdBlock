@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2015 - Michael Zanetti <michael.zanetti@ubuntu.com>
+ * Copyright (C) 2015 - Michael Zanetti <michael.zanetti@ubuntu.com> (from tweekgeek)
  *               2017 - Marius Gripsgard <marius@ubports.com>
  *
  * This program is free software; you can redistribute it and/or modify
@@ -27,6 +27,7 @@ Cmd::Cmd(QObject *parent) :
 {
     m_process = new QProcess(this);
     connect(m_process, SIGNAL(finished(int, QProcess::ExitStatus)), this, SLOT(processFinished(int,QProcess::ExitStatus)));
+    connect(m_process, SIGNAL(errorOccurred(QProcess::ProcessError)), this, SLOT(error(QProcess::ProcessError)));
     connect(m_process, &QProcess::readyReadStandardError, this, &Cmd::readStdErr);
 
 }
@@ -34,6 +35,20 @@ Cmd::Cmd(QObject *parent) :
 bool Cmd::busy() const
 {
     return m_busy;
+}
+
+bool Cmd::getError() const
+{
+    return m_error;
+}
+
+void Cmd::error(QProcess::ProcessError error)
+{
+    cout << "ERORRO" << endl;
+    m_error = true;
+    m_busy = false;
+    emit busyChanged();
+    emit errorChanged();
 }
 
 void Cmd::SetPassword(QString& pass)
@@ -54,35 +69,27 @@ void Cmd::execute(const QString &cmdLine)
 
 void Cmd::sudo(const QString &cmdLine)
 {
-    cout << "cmdLine" << endl;
     execute("sudo -S -p passwdprompt " + cmdLine);
 }
 
 void Cmd::processFinished(int exitCode, QProcess::ExitStatus)
 {
-    cout << "finished 1" << endl;
+    QByteArray data = m_process->readAll();
     m_busy = false;
+    m_error = false;
     emit busyChanged();
-    emit finished(exitCode == 0, m_process->readAllStandardOutput());
-    cout << m_process->readAllStandardOutput().toStdString() << endl;
+    emit errorChanged();
+    emit finished(exitCode == 0, data.data());
 }
 
 void Cmd::readStdErr()
 {
     QByteArray data = m_process->readAllStandardError();
     cout << data.data() << endl;
-    if (data == "passwdprompt") {
+    if (data.contains("passwdprompt")) {
             emit passwordRequested();
+            return;
     }
-}
-
-void Cmd::readStd(int exitCode, QProcess::ExitStatus)
-{
-    cout << "finished 1" << exitCode << endl;
-    QByteArray data = m_process->readAllStandardOutput();
-    cout << data.data() << endl;
-    m_busy = false;
-    emit busyChanged();
 }
 
 void Cmd::providePassword(const QString &password)
@@ -98,10 +105,8 @@ void Cmd::cancel()
 {
     if (m_process) {
         m_process->kill();
-        m_process->deleteLater();
-        m_process = 0;
+        m_process->waitForFinished(1);
         cout << "cancelled" << endl;
-
     }
 }
 

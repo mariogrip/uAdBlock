@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-05 02:13+0000\n"
+"POT-Creation-Date: 2017-09-06 03:37+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,23 +17,63 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../app/Main.qml:39 ../app/Main.qml:131
-msgid "uAdblock is enabled"
-msgstr ""
-
-#: ../app/Main.qml:40 ../app/Main.qml:132
-msgid "Disable"
-msgstr ""
-
-#: ../app/Main.qml:42 ../app/Main.qml:134
-msgid "uAdblock is disabled"
-msgstr ""
-
-#: ../app/Main.qml:43 ../app/Main.qml:127 ../app/Main.qml:135
-msgid "Enable"
-msgstr ""
-
-#: ../app/Main.qml:80
+#: ../app/Main.qml:120
 #: /home/mariogrip/build-uAdBlock-Ubuntu_Device4_GCC_armhf_ubuntu_sdk_15_04_builder_armhf-Default/po/uAdBlock.desktop.in.h:1
 msgid "uAdBlock"
+msgstr ""
+
+#: ../app/Main.qml:164
+msgid "Please note that this app will modify your readonly filesystem"
+msgstr ""
+
+#: ../app/Main.qml:170
+msgid "uAdBlock enabled"
+msgstr ""
+
+#: ../app/Main.qml:192
+msgid "Last updated"
+msgstr ""
+
+#: ../app/Main.qml:199
+msgid "Check for update"
+msgstr ""
+
+#: ../app/Main.qml:214
+msgid "No update available"
+msgstr ""
+
+#: ../app/Main.qml:221
+msgid "Error"
+msgstr ""
+
+#: ../app/Main.qml:279
+msgid "New version available"
+msgstr ""
+
+#: ../app/Main.qml:280
+msgid "New adblock list available, Want to update?"
+msgstr ""
+
+#: ../app/Main.qml:286
+msgid "Yes"
+msgstr ""
+
+#: ../app/Main.qml:294
+msgid "No"
+msgstr ""
+
+#: ../app/Main.qml:308
+msgid "Enter password"
+msgstr ""
+
+#: ../app/Main.qml:309
+msgid "Your password is required for this action:"
+msgstr ""
+
+#: ../app/Main.qml:319
+msgid "OK"
+msgstr ""
+
+#: ../app/Main.qml:327
+msgid "Cancel"
 msgstr ""

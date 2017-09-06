@@ -25,15 +25,19 @@ class Cmd : public QObject
 {
     Q_OBJECT
     Q_PROPERTY(bool busy READ busy NOTIFY busyChanged)
+    Q_PROPERTY(bool error READ getError NOTIFY errorChanged)
 
 public:
     explicit Cmd(QObject *parent = 0);
 
     bool busy() const;
+    bool getError() const;
 
 signals:
     void busyChanged();
+    void errorChanged();
     void finished(bool success, const QString &stdout);
+    void error();
 
     void passwordRequested();
 
@@ -49,11 +53,12 @@ public slots:
 private slots:
     void processFinished(int exitCode, QProcess::ExitStatus);
     void readStdErr();
-    void readStd(int exitCode, QProcess::ExitStatus);
+    void error(QProcess::ProcessError error);
 
 private:
     QProcess *m_process;
     bool m_busy;
+    bool m_error;
     QString m_pass;
 
 };
