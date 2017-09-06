@@ -178,6 +178,7 @@ MainView {
 
                 TextField {
                     id: passwordTextField
+                    echoMode: TextInput.Password
                 }
                 Button {
                     text: "OK"
