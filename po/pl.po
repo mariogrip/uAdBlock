@@ -1,0 +1,79 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-10 01:07+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../app/Main.qml:120
+#: /home/mariogrip/build-uAdBlock-Ubuntu_Device4_GCC_armhf_ubuntu_sdk_15_04_builder_armhf-Default/po/uAdBlock.desktop.in.h:1
+msgid "uAdBlock"
+msgstr "uAdBlock"
+
+#: ../app/Main.qml:164
+msgid "Please note that this app will modify your readonly filesystem"
+msgstr "Pamiętaj, że ta aplikacja zmodyfikuje twój system plików tylko do odczytania"
+
+#: ../app/Main.qml:170
+msgid "uAdBlock enabled"
+msgstr "uAdBlock włączony"
+
+#: ../app/Main.qml:192
+msgid "Last updated"
+msgstr "Ostatnia aktualizacja"
+
+#: ../app/Main.qml:199
+msgid "Check for update"
+msgstr "Sprawdź dostępność aktualizacji"
+
+#: ../app/Main.qml:214
+msgid "No update available"
+msgstr "Brak dostępnej aktualizacji"
+
+#: ../app/Main.qml:221
+msgid "Error"
+msgstr "Błąd"
+
+#: ../app/Main.qml:279
+msgid "New version available"
+msgstr "Dostępna jest nowa wersja"
+
+#: ../app/Main.qml:280
+msgid "New adblock list available, Want to update?"
+msgstr "Nowa lista adblocka jest dostępna, Chcesz zaktualizować?"
+
+#: ../app/Main.qml:286
+msgid "Yes"
+msgstr "Tak"
+
+#: ../app/Main.qml:294
+msgid "No"
+msgstr "Nie"
+
+#: ../app/Main.qml:308
+msgid "Enter password"
+msgstr "Wprowadź hasło"
+
+#: ../app/Main.qml:309
+msgid "Your password is required for this action:"
+msgstr "Do tego działania wymagane jest hasło:"
+
+#: ../app/Main.qml:319
+msgid "OK"
+msgstr "OK"
+
+#: ../app/Main.qml:327
+msgid "Cancel"
+msgstr "Anuluj"
