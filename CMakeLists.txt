@@ -28,7 +28,7 @@ set(APP_NAME          uAdBlock)
 set(APP_ID            "uadblock.mariogrip")
 set(UADBLOCK_DIR "share/qml/uAdBlock")
 set(MAIN_QML          "Main.qml")
-set(ICON              "graphics/uAdBlock.png")
+set(ICON              "graphics/uAdBlock.svg")
 
 # Set install paths
 set(CMAKE_INSTALL_PREFIX /)
