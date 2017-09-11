@@ -102,6 +102,12 @@ MainView {
     }
 
     function timeConverter(UNIX_timestamp){
+      function ii(i, len) {
+          var s = i + "";
+          len = len || 2;
+          while (s.length < len) s = "0" + s;
+          return s;
+      }
       if (!(new Date(UNIX_timestamp * 1000)).getTime() > 0)
           return "Never"
       var a = new Date(UNIX_timestamp * 1000);
@@ -109,9 +115,9 @@ MainView {
       var year = a.getFullYear();
       var month = months[a.getMonth()];
       var date = a.getDate();
-      var hour = a.getHours();
-      var min = a.getMinutes();
-      var sec = a.getSeconds();
+      var hour = ii(a.getHours());
+      var min = ii(a.getMinutes());
+      var sec = ii(a.getSeconds());
       var time = date + ' ' + month + ' ' + year + ' ' + hour + ':' + min + ':' + sec ;
       return time;
     }
