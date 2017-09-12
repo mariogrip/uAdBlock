@@ -63,13 +63,11 @@ MainView {
     function done(){
         uBlockEnabled = cmd.fileExists(blocklistEnabled)
         if (uBlockEnabled) {
-            checkForNewVersion(function(newVersion) {
-                settings.lastUpdate = newVersion
-                lastUpdated.value = timeConverter(settings.lastUpdate)
-            })
-        }else{
-            aIndicator.visible = false;
+            settings.lastUpdate = Date.now()/1000
+            lastUpdated.value = timeConverter(settings.lastUpdate)
         }
+        aIndicator.visible = false;
+
 
     }
 
@@ -207,7 +205,7 @@ MainView {
                     enabled: uBlockEnabled
                     onClicked: {
                         checkForNewVersion(function(newVersion) {
-                            if (newVersion !== settings.lastUpdate){
+                            if (newVersion > settings.lastUpdate){
                                 var popup = PopupUtils.open(newVersionPopup)
                                 popup.accepted.connect(function() {
                                     block()
@@ -215,9 +213,11 @@ MainView {
                                 popup.rejected.connect(function() {
                                      console.log("nope")
                                 })
-                            }
+                                value = i18n.tr("Updated")
+                            }else
+                                value = i18n.tr("No update available")
                             noUpdate = true
-                            value = i18n.tr("No update available")
+
                         })
                     }
                 }

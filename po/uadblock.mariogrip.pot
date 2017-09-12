@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-06 03:37+0000\n"
+"POT-Creation-Date: 2017-09-12 00:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,63 +17,67 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../app/Main.qml:120
-#: /home/mariogrip/build-uAdBlock-Ubuntu_Device4_GCC_armhf_ubuntu_sdk_15_04_builder_armhf-Default/po/uAdBlock.desktop.in.h:1
+#: ../app/Main.qml:124
+#: /home/mariogrip/build-uAdBlock-Ubuntu_Device2_GCC_armhf_ubuntu_sdk_15_04_builder_armhf-Default/po/uAdBlock.desktop.in.h:1
 msgid "uAdBlock"
 msgstr ""
 
-#: ../app/Main.qml:164
+#: ../app/Main.qml:168
 msgid "Please note that this app will modify your readonly filesystem"
 msgstr ""
 
-#: ../app/Main.qml:170
+#: ../app/Main.qml:174
 msgid "uAdBlock enabled"
 msgstr ""
 
-#: ../app/Main.qml:192
+#: ../app/Main.qml:196
 msgid "Last updated"
 msgstr ""
 
-#: ../app/Main.qml:199
+#: ../app/Main.qml:203
 msgid "Check for update"
 msgstr ""
 
-#: ../app/Main.qml:214
+#: ../app/Main.qml:216
+msgid "Updated"
+msgstr ""
+
+#: ../app/Main.qml:218
 msgid "No update available"
 msgstr ""
 
-#: ../app/Main.qml:221
+#: ../app/Main.qml:227
 msgid "Error"
 msgstr ""
 
-#: ../app/Main.qml:279
+#: ../app/Main.qml:285
 msgid "New version available"
 msgstr ""
 
-#: ../app/Main.qml:280
+#: ../app/Main.qml:286
 msgid "New adblock list available, Want to update?"
 msgstr ""
 
-#: ../app/Main.qml:286
+#: ../app/Main.qml:292
 msgid "Yes"
 msgstr ""
 
-#: ../app/Main.qml:294
+#: ../app/Main.qml:300
 msgid "No"
 msgstr ""
 
-#: ../app/Main.qml:308
+#: ../app/Main.qml:314
 msgid "Enter password"
 msgstr ""
 
-#: ../app/Main.qml:309
+#: ../app/Main.qml:315
 msgid "Your password is required for this action:"
 msgstr ""
 
-#: ../app/Main.qml:319
+#: ../app/Main.qml:325
 msgid "OK"
 msgstr ""
 
-#: ../app/Main.qml:327
+#: ../app/Main.qml:333
 msgid "Cancel"
 msgstr ""
