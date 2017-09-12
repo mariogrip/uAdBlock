@@ -1,0 +1,79 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-06 03:37+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../app/Main.qml:120
+#: /home/mariogrip/build-uAdBlock-Ubuntu_Device4_GCC_armhf_ubuntu_sdk_15_04_builder_armhf-Default/po/uAdBlock.desktop.in.h:1
+msgid "uAdBlock"
+msgstr "uAdBlock"
+
+#: ../app/Main.qml:164
+msgid "Please note that this app will modify your readonly filesystem"
+msgstr "Veuillez noter que cette application modifiera votre système de fichiers en lecture seule"
+
+#: ../app/Main.qml:170
+msgid "uAdBlock enabled"
+msgstr "uAdBlock activé"
+
+#: ../app/Main.qml:192
+msgid "Last updated"
+msgstr "Dernière mise à jour"
+
+#: ../app/Main.qml:199
+msgid "Check for update"
+msgstr "Chercher des mises à jour"
+
+#: ../app/Main.qml:214
+msgid "No update available"
+msgstr "Pas de mise à jour disponible"
+
+#: ../app/Main.qml:221
+msgid "Error"
+msgstr "Erreur"
+
+#: ../app/Main.qml:279
+msgid "New version available"
+msgstr "Nouvelle version disponible"
+
+#: ../app/Main.qml:280
+msgid "New adblock list available, Want to update?"
+msgstr "Une nouvelle liste de blocage de publicités est disponible, voulez-vous faire une mise à jour[nbsp]?"
+
+#: ../app/Main.qml:286
+msgid "Yes"
+msgstr "Oui"
+
+#: ../app/Main.qml:294
+msgid "No"
+msgstr "Non"
+
+#: ../app/Main.qml:308
+msgid "Enter password"
+msgstr "Saisissez un mot de passe"
+
+#: ../app/Main.qml:309
+msgid "Your password is required for this action:"
+msgstr "Votre mot de passe est nécessaire pour cette action[nbsp]:"
+
+#: ../app/Main.qml:319
+msgid "OK"
+msgstr "Valider"
+
+#: ../app/Main.qml:327
+msgid "Cancel"
+msgstr "Annuler"
