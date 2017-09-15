@@ -1,18 +1,17 @@
-# SOME DESCRIPTIVE TITLE.
+# Catalan translacion of uAdBlock
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Walter Garcia-Fontes <walter.garcia@upf.edu>, 2017.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: uAdBlock 0.2\n"
+"Report-Msgid-Bugs-To:  https://github.com/mariogrip/uAdBlock/issues\n"
 "POT-Creation-Date: 2017-09-06 03:37+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: fr\n"
+"PO-Revision-Date: 2017-09-12 10:33+0200\n"
+"Last-Translator: Walter Garcia-Fontes <walter.garcia@upf.edu>\n"
+"Language-Team: Catalan <walter.garcia@upf.edu>\n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -24,56 +23,56 @@ msgstr "uAdBlock"
 
 #: ../app/Main.qml:164
 msgid "Please note that this app will modify your readonly filesystem"
-msgstr "Veuillez noter que cette application modifiera votre système de fichiers en lecture seule"
+msgstr "Noteu que aquesta app modificarà el vostre sistema de fitxers de sols lectura"
 
 #: ../app/Main.qml:170
 msgid "uAdBlock enabled"
-msgstr "uAdBlock activé"
+msgstr "uAdBlock activat"
 
 #: ../app/Main.qml:192
 msgid "Last updated"
-msgstr "Dernière mise à jour"
+msgstr "L'últim cop que s'ha actualitzat"
 
 #: ../app/Main.qml:199
 msgid "Check for update"
-msgstr "Chercher des mises à jour"
+msgstr "Comproveu si hi ha una actualització"
 
 #: ../app/Main.qml:214
 msgid "No update available"
-msgstr "Pas de mise à jour disponible"
+msgstr "No hi cap actualització disponible"
 
 #: ../app/Main.qml:221
 msgid "Error"
-msgstr "Erreur"
+msgstr "Error"
 
 #: ../app/Main.qml:279
 msgid "New version available"
-msgstr "Nouvelle version disponible"
+msgstr "Hi ha una nova versió disponible"
 
 #: ../app/Main.qml:280
 msgid "New adblock list available, Want to update?"
-msgstr "Une nouvelle liste de blocage de publicités est disponible, voulez-vous faire une mise à jour[nbsp]?"
+msgstr "Hi ha una nova llista de bloqueig d'anuncis disponible. Voleu actualitzar-la?"
 
 #: ../app/Main.qml:286
 msgid "Yes"
-msgstr "Oui"
+msgstr "Sí"
 
 #: ../app/Main.qml:294
 msgid "No"
-msgstr "Non"
+msgstr "No"
 
 #: ../app/Main.qml:308
 msgid "Enter password"
-msgstr "Saisissez un mot de passe"
+msgstr "Entra la contrasenya"
 
 #: ../app/Main.qml:309
 msgid "Your password is required for this action:"
-msgstr "Votre mot de passe est nécessaire pour cette action[nbsp]:"
+msgstr "Es requereix la vostra contrasenya per a aquesta acció:"
 
 #: ../app/Main.qml:319
 msgid "OK"
-msgstr "Valider"
+msgstr "D'acord"
 
 #: ../app/Main.qml:327
 msgid "Cancel"
-msgstr "Annuler"
+msgstr "Cancel·la"
