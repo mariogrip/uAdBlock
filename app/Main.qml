@@ -21,7 +21,6 @@ MainView {
 
     Settings {
         id: settings
-
         property string lastUpdate: "Never"
     }
 
@@ -31,6 +30,14 @@ MainView {
     property var blocklist: '/etc/hosts.blocklist'
     property var blocklistEnabled: '/etc/hosts.blocklist-enabled'
     property var original: '/etc/hosts.without-adblock'
+    property var types: ["ad", "fakenews", "gambling", "porn", "social"]
+    property var prettyTypes: {
+      "ad": "Adware and Malware",
+      "fakenews": "Fakenews sites",
+      "gambling": "Gambling sites",
+      "porn": "Porn sites",
+      "social": "Social sites"
+    }
 
     property var cmdList: []
 
@@ -67,8 +74,6 @@ MainView {
             lastUpdated.value = timeConverter(settings.lastUpdate)
         }
         aIndicator.visible = false;
-
-
     }
 
     function sudo(cmd){
@@ -341,5 +346,3 @@ MainView {
     }
 }
 }
-
-

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-12 00:09+0000\n"
+"POT-Creation-Date: 2017-10-01 22:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../app/Main.qml:124
-#: /home/mariogrip/build-uAdBlock-Ubuntu_Device2_GCC_armhf_ubuntu_sdk_15_04_builder_armhf-Default/po/uAdBlock.desktop.in.h:1
+#: /home/mariogrip/uAdBlock/build/po/uAdBlock.desktop.in.h:1
 msgid "uAdBlock"
 msgstr ""
 
@@ -42,42 +42,46 @@ msgstr ""
 msgid "Updated"
 msgstr ""
 
-#: ../app/Main.qml:218
+#: ../app/Main.qml:217
+msgid "HEY TEST"
+msgstr ""
+
+#: ../app/Main.qml:219
 msgid "No update available"
 msgstr ""
 
-#: ../app/Main.qml:227
+#: ../app/Main.qml:228
 msgid "Error"
 msgstr ""
 
-#: ../app/Main.qml:285
+#: ../app/Main.qml:286
 msgid "New version available"
 msgstr ""
 
-#: ../app/Main.qml:286
+#: ../app/Main.qml:287
 msgid "New adblock list available, Want to update?"
 msgstr ""
 
-#: ../app/Main.qml:292
+#: ../app/Main.qml:293
 msgid "Yes"
 msgstr ""
 
-#: ../app/Main.qml:300
+#: ../app/Main.qml:301
 msgid "No"
 msgstr ""
 
-#: ../app/Main.qml:314
+#: ../app/Main.qml:315
 msgid "Enter password"
 msgstr ""
 
-#: ../app/Main.qml:315
+#: ../app/Main.qml:316
 msgid "Your password is required for this action:"
 msgstr ""
 
-#: ../app/Main.qml:325
+#: ../app/Main.qml:326
 msgid "OK"
 msgstr ""
 
-#: ../app/Main.qml:333
+#: ../app/Main.qml:334
 msgid "Cancel"
 msgstr ""

@@ -9,7 +9,7 @@
             "desktop": "uAdBlock.desktop"
         }
     },
-    "version": "0.2",
+    "version": "0.3",
     "maintainer": "Marius Gripsgard <marius@ubports.com>",
     "framework": "ubuntu-sdk-15.04.6"
 }
