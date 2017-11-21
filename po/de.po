@@ -1,0 +1,83 @@
+# German translation for uAdBlock
+# This file is distributed under the same license as the uAdBlock package.
+# Bjarne Roß <ross.b@freenet.de>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-12 00:09+0000\n"
+"PO-Revision-Date: 2017-10-02 03:20+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: de\n"
+
+#: ../app/Main.qml:124
+#: /home/mariogrip/build-uAdBlock-Ubuntu_Device2_GCC_armhf_ubuntu_sdk_15_04_builder_armhf-Default/po/uAdBlock.desktop.in.h:1
+msgid "uAdBlock"
+msgstr "uAdBlock"
+
+#: ../app/Main.qml:168
+msgid "Please note that this app will modify your readonly filesystem"
+msgstr "Bitte beachte, dass diese App Ihr Nur-Lese-Dateisystem bearbeiten wird"
+
+#: ../app/Main.qml:174
+msgid "uAdBlock enabled"
+msgstr "uAdBlock aktiviert"
+
+#: ../app/Main.qml:196
+msgid "Last updated"
+msgstr "Letzte Aktualisierung"
+
+#: ../app/Main.qml:203
+msgid "Check for update"
+msgstr "Suche nach Aktualisierung"
+
+#: ../app/Main.qml:216
+msgid "Updated"
+msgstr "Aktualisiert"
+
+#: ../app/Main.qml:218
+msgid "No update available"
+msgstr "Keine Aktualisierung verfügbar"
+
+#: ../app/Main.qml:227
+msgid "Error"
+msgstr "Fehler"
+
+#: ../app/Main.qml:285
+msgid "New version available"
+msgstr "Neue Version verfügbar"
+
+#: ../app/Main.qml:286
+msgid "New adblock list available, Want to update?"
+msgstr "Neue adblock-Liste verfügbar. Möchten Sie Aktualisieren?"
+
+#: ../app/Main.qml:292
+msgid "Yes"
+msgstr "Ja"
+
+#: ../app/Main.qml:300
+msgid "No"
+msgstr "Nein"
+
+#: ../app/Main.qml:314
+msgid "Enter password"
+msgstr "Passwort eingeben"
+
+#: ../app/Main.qml:315
+msgid "Your password is required for this action:"
+msgstr "Für diese Aktion wird Ihr Passwort benötigt:"
+
+#: ../app/Main.qml:325
+msgid "OK"
+msgstr "OK"
+
+#: ../app/Main.qml:333
+msgid "Cancel"
+msgstr "Abbrechen"
