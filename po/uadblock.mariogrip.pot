@@ -1,6 +1,6 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# This file is distributed under the same license as the  package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-01 22:22+0000\n"
+"POT-Creation-Date: 2018-06-30 21:24+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,71 +17,67 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../app/Main.qml:124
-#: /home/mariogrip/uAdBlock/build/po/uAdBlock.desktop.in.h:1
+#: ../app/Main.qml:129
+#: /home/mariogrip/Develop/uAdBlock/build/po/uAdBlock.desktop.in.h:1
 msgid "uAdBlock"
 msgstr ""
 
-#: ../app/Main.qml:168
+#: ../app/Main.qml:173
 msgid "Please note that this app will modify your readonly filesystem"
 msgstr ""
 
-#: ../app/Main.qml:174
+#: ../app/Main.qml:179
 msgid "uAdBlock enabled"
 msgstr ""
 
-#: ../app/Main.qml:196
+#: ../app/Main.qml:201
 msgid "Last updated"
 msgstr ""
 
-#: ../app/Main.qml:203
+#: ../app/Main.qml:208
 msgid "Check for update"
 msgstr ""
 
-#: ../app/Main.qml:216
+#: ../app/Main.qml:221
 msgid "Updated"
 msgstr ""
 
-#: ../app/Main.qml:217
-msgid "HEY TEST"
-msgstr ""
-
-#: ../app/Main.qml:219
+#: ../app/Main.qml:223
 msgid "No update available"
 msgstr ""
 
-#: ../app/Main.qml:228
+#: ../app/Main.qml:232
 msgid "Error"
 msgstr ""
 
-#: ../app/Main.qml:286
+#: ../app/Main.qml:290
 msgid "New version available"
 msgstr ""
 
-#: ../app/Main.qml:287
+#: ../app/Main.qml:291
 msgid "New adblock list available, Want to update?"
 msgstr ""
 
-#: ../app/Main.qml:293
+#: ../app/Main.qml:297
 msgid "Yes"
 msgstr ""
 
-#: ../app/Main.qml:301
+#: ../app/Main.qml:305
 msgid "No"
 msgstr ""
 
-#: ../app/Main.qml:315
+#: ../app/Main.qml:319
 msgid "Enter password"
 msgstr ""
 
-#: ../app/Main.qml:316
+#: ../app/Main.qml:320
 msgid "Your password is required for this action:"
 msgstr ""
 
-#: ../app/Main.qml:326
+#: ../app/Main.qml:330
 msgid "OK"
 msgstr ""
 
-#: ../app/Main.qml:334
+#: ../app/Main.qml:338
 msgid "Cancel"
 msgstr ""
